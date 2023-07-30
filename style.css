@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+
+}
+
+body{
+    font-family: 'Yuji Hentaigana Akebono', cursive;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.calc-main{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    box-shadow:10px 5px 5px #878787;
+   
+}
+.row{
+    display: flex;
+    width: 408px;
+    text-align: center;
+}
+#calc-clear{
+    width: 600px;
+}
+#calc-zero{
+    width: 600px;
+    border-radius: 0 0 0 10px;
+}
+
+.calc-btn{
+    background-color: #ccc;
+    width: 100px;
+    padding: 40px;
+    text-align: center;
+    border: 1px solid #878787;
+    font-size: 20px;
+    font-weight: 400px;
+}
+.calc-btn:hover{
+    background-color: #F09C00;
+}
+
+.calc-operator{
+    background-color: #F09C00;
+    color: #fff;
+}
+#calc-display-val{
+    background-color: #303030;
+    color: #fff;
+    width: 408px;
+    font-size: 60px;
+    padding: 40px 0 40px 0;
+    text-align:right;
+    border-radius: 10px 10px 0 0;
+}
+#calc-equals{
+    border-radius: 0 0 10px 0;
+}
